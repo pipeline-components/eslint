@@ -2,7 +2,7 @@
 
 ![Project Stage][project-stage-shield]
 ![Project Maintenance][maintenance-shield]
-[![License][license-shield]](LICENSE.md)
+[![License][license-shield]](LICENSE)
 
 [![GitLab CI][gitlabci-shield]][gitlabci]
 
