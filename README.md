@@ -14,8 +14,7 @@
 
 ## Usage
 
-The image has for running eslint in a small container and supporting all of
-the default eslint recipes
+The image is for running eslint, eslint is installed in /app/ in case you need to customize the install before usage
 
 ## Examples
 
