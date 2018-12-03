@@ -22,10 +22,14 @@ The image is for running eslint, eslint is installed in /app/ in case you need t
 eslint:
   stage: linting
   image: pipelinecomponents/eslint:latest
+  before_script:
+    - touch dummy.js
   script:
-    - eslint --color .
+    - eslint $( [[ -e .eslintrc ]] || echo '--no-eslintrc' ) --color .
 
 ```
+
+Touching dummy.js prevents eslint from complaining that it had no files to lint
 
 ## Versioning
 
