@@ -369,7 +369,7 @@ eslint-config-airbnb@17.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-formatter-gitlab@^1.0.2:
+eslint-formatter-gitlab@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-1.0.2.tgz#ccb8caeb49e69179f6ab5455f9ff746ed6e6fedd"
   integrity sha512-q2PYVu5E5Mq0GPrbUTwI8cZ5L6+VcLD3nL380dA6fURKld9WQ1JznMKufOtHoV7c2XGDnz16GO8Ixb2x+F43KQ==
@@ -392,7 +392,7 @@ eslint-module-utils@^2.3.0:
     debug "^2.6.8"
     pkg-dir "^2.0.0"
 
-eslint-plugin-html@^5.0.3:
+eslint-plugin-html@5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-html/-/eslint-plugin-html-5.0.3.tgz#3db133995e49a73596f6a473c16a1b83634deffd"
   integrity sha512-46ruAnp3jVQP/5Bi5eEIOooscjUTPFU3vxCxHe/OG6ORdM7Xv5c25/Nz9fAbHklzCpiXuIiH4/mV/XBkm7MINw==
