@@ -420,12 +420,12 @@ eslint-config-airbnb@17.1.1:
     object.assign "^4.1.0"
     object.entries "^1.1.0"
 
-eslint-formatter-gitlab@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-1.0.3.tgz#35eb66b885a977c4d41ed92247243205c45ce34b"
-  integrity sha512-xdlxZ4bKV0Vkuwc6JkhI2l6VekX56/VD6K3ZFFRf0Zx0aSQvoDYRJyF5DQspRSjNkU4L3LMp3FITwklfj4om6g==
+eslint-formatter-gitlab@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-1.1.0.tgz#f4de18aaf2b000fac377dec7b8f4b7addad5ddf0"
+  integrity sha512-VcbvMG3EITgiTKgIlgBoMtBucXLurL0NSGCXt5bPfxIkl8dL9uXSOOotllZomyonO7eerP4CrCx0DYnoL6StRA==
   dependencies:
-    fs-extra "^7.0.1"
+    fs-extra "^8.1.0"
     is-glob "^4.0.1"
     js-yaml "^3.13.1"
 
@@ -665,12 +665,12 @@ flatted@^2.0.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.0.tgz#55122b6536ea496b4b44893ee2608141d10d9916"
   integrity sha512-R+H8IZclI8AAkSBRQJLVOsxwAoHd6WC40b4QTNWIjzAa6BXOBfQcM587MXDTVPeYaopFNWHUFLx7eNmHDSxMWg==
 
-fs-extra@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
-  integrity sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==
+fs-extra@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
+  integrity sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==
   dependencies:
-    graceful-fs "^4.1.2"
+    graceful-fs "^4.2.0"
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
@@ -717,6 +717,11 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.15"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
+
+graceful-fs@^4.2.0:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.1.tgz#1c1f0c364882c868f5bff6512146328336a11b1d"
+  integrity sha512-b9usnbDGnD928gJB3LrCmxoibr3VE4U2SMo5PBuBnokWyDADTqDPXg4YpwKF1trpH+UbGp7QLicO3+aWEy0+mw==
 
 has-flag@^3.0.0:
   version "3.0.0"
