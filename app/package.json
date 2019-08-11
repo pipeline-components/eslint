@@ -3,7 +3,7 @@
     "babel-eslint": "10.0.2",
     "eslint": "6.1.0",
     "eslint-config-airbnb": "17.1.1",
-    "eslint-formatter-gitlab": "1.0.3",
+    "eslint-formatter-gitlab": "1.1.0",
     "eslint-plugin-html": "6.0.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
