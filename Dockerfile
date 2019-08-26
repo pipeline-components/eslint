@@ -1,10 +1,17 @@
 FROM node:10.16.3-alpine
-COPY app /app/
+
 WORKDIR /app/
+
+# Generic
+COPY app /app/
+
+# Node
 ENV PATH "$PATH:/app/node_modules/.bin/"
 RUN yarn install --frozen-lockfile && yarn cache clean
+ENV NODE_PATH=/app/node_modules/
 
 WORKDIR /code/
+
 # Build arguments
 ARG BUILD_DATE
 ARG BUILD_REF
