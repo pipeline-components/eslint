@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-LODASH-567746:
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.118Z'
+    - eslint > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.118Z'
+    - babel-eslint > @babel/traverse > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.119Z'
+    - eslint > inquirer > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.119Z'
+    - eslint > table > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.119Z'
+    - babel-eslint > @babel/traverse > @babel/types > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.119Z'
+    - babel-eslint > @babel/types > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.119Z'
+    - babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.119Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.119Z'
+    - babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.119Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.119Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: NO update available
+        expires: '2020-07-13T06:33:14.120Z'
+patch: {}
