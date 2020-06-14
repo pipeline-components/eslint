@@ -1,5 +1,5 @@
 ---
-name: "eslint"
+name: "pipeline-components-eslint"
 description: "eslint by Pipeline Components"
 author: "Robbert Müller <spam.me@grols.ch>"
 branding:
