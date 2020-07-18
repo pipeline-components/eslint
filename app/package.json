@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "babel-eslint": "10.1.0",
-    "eslint": "7.4.0",
+    "eslint": "7.5.0",
     "eslint-config-airbnb": "18.2.0",
     "eslint-formatter-gitlab": "2.0.0",
     "eslint-plugin-html": "6.0.2",
