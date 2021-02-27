@@ -21,7 +21,7 @@ The image is for running eslint, eslint is installed in /app/ in case you need t
 ```yaml
 eslint:
   stage: linting
-  image: pipelinecomponents/eslint:latest
+  image: registry.gitlab.com/pipeline-components/eslint:latest
   before_script:
     - touch dummy.js
   script:
