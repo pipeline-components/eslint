@@ -519,11 +519,12 @@ eslint-config-airbnb@18.2.1:
     object.assign "^4.1.2"
     object.entries "^1.1.2"
 
-eslint-formatter-gitlab@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-2.2.0.tgz#e91bf9e22d04ae54561bf84788ed509c32a26e01"
-  integrity sha512-iLQB4Fp8CFAB2PiHVGMx58Zukzx5ZiNZa8MUKWzEkYwohkv6ZoutMi1JQWG89x1I+26EsvleTMoF2QkZco/XKA==
+eslint-formatter-gitlab@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-3.0.0.tgz#595b3f684478ca5eb5be4c983703d3b5a1584acd"
+  integrity sha512-fqZ2G45rgbrHcFunqmwuG5Qo6QAOlxEsR+KdOP08T1Xegw5tJhHh9KFWMSct8q6x8xCMUyYGHypZd342bLUttA==
   dependencies:
+    chalk "^4.0.0"
     js-yaml "^4.0.0"
 
 eslint-import-resolver-node@^0.3.6:
