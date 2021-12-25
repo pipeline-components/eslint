@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "eslint": "8.2.0",
-    "eslint-config-airbnb": "19.0.0",
+    "eslint-config-airbnb": "19.0.4",
     "eslint-formatter-gitlab": "3.0.0",
     "eslint-plugin-html": "6.2.0",
     "eslint-plugin-import": "2.25.3",
