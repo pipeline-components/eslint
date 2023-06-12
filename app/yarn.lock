@@ -10,7 +10,7 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@babel/code-frame@^7.21.4", "@babel/code-frame@^7.22.5":
+"@babel/code-frame@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.22.5.tgz#234d98e1551960604f1246e6475891a570ad5658"
   integrity sha512-Xmwn266vad+6DAqEB2A6V/CcZVp62BbwVmcOJc2RPuwih1kw02TjQvWVWlcKGbBPd+8/0V5DEkOcizRGYsspYQ==
@@ -22,37 +22,37 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.22.5.tgz#b1f6c86a02d85d2dd3368a2b67c09add8cd0c255"
   integrity sha512-4Jc/YuIaYqKnDDz892kPIledykKg12Aw1PYX5i/TY28anJtacvM1Rrr8wbieB9GfEJwlzqT0hUEao0CxEebiDA==
 
-"@babel/core@7.21.8":
-  version "7.21.8"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.21.8.tgz#2a8c7f0f53d60100ba4c32470ba0281c92aa9aa4"
-  integrity sha512-YeM22Sondbo523Sz0+CirSPnbj9bG3P0CdHcBZdqUuaeOaYEFbOLoGU7lebvGP6P5J/WE9wOn7u7C4J9HvS1xQ==
+"@babel/core@7.22.5":
+  version "7.22.5"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.22.5.tgz#d67d9747ecf26ee7ecd3ebae1ee22225fe902a89"
+  integrity sha512-SBuTAjg91A3eKOvD+bPEz3LlhHZRNu1nFOVts9lzDJTXshHTjII0BAtDS3Y2DAkdZdDKWVZGVwkDfc4Clxn1dg==
   dependencies:
     "@ampproject/remapping" "^2.2.0"
-    "@babel/code-frame" "^7.21.4"
-    "@babel/generator" "^7.21.5"
-    "@babel/helper-compilation-targets" "^7.21.5"
-    "@babel/helper-module-transforms" "^7.21.5"
-    "@babel/helpers" "^7.21.5"
-    "@babel/parser" "^7.21.8"
-    "@babel/template" "^7.20.7"
-    "@babel/traverse" "^7.21.5"
-    "@babel/types" "^7.21.5"
+    "@babel/code-frame" "^7.22.5"
+    "@babel/generator" "^7.22.5"
+    "@babel/helper-compilation-targets" "^7.22.5"
+    "@babel/helper-module-transforms" "^7.22.5"
+    "@babel/helpers" "^7.22.5"
+    "@babel/parser" "^7.22.5"
+    "@babel/template" "^7.22.5"
+    "@babel/traverse" "^7.22.5"
+    "@babel/types" "^7.22.5"
     convert-source-map "^1.7.0"
     debug "^4.1.0"
     gensync "^1.0.0-beta.2"
     json5 "^2.2.2"
     semver "^6.3.0"
 
-"@babel/eslint-parser@7.21.8":
-  version "7.21.8"
-  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.21.8.tgz#59fb6fc4f3b017ab86987c076226ceef7b2b2ef2"
-  integrity sha512-HLhI+2q+BP3sf78mFUZNCGc10KEmoUqtUT1OCdMZsN+qr4qFeLUod62/zAnF3jNQstwyasDkZnVXwfK2Bml7MQ==
+"@babel/eslint-parser@7.22.5":
+  version "7.22.5"
+  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.22.5.tgz#fa032503b9e2d188e25b1b95d29e8b8431042d78"
+  integrity sha512-C69RWYNYtrgIRE5CmTd77ZiLDXqgBipahJc/jHP3sLcAGj6AJzxNIuKNpVnICqbyK7X3pFUfEvL++rvtbQpZkQ==
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals" "5.1.1-v1"
     eslint-visitor-keys "^2.1.0"
     semver "^6.3.0"
 
-"@babel/generator@^7.21.5", "@babel/generator@^7.22.5":
+"@babel/generator@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.22.5.tgz#1e7bf768688acfb05cf30b2369ef855e82d984f7"
   integrity sha512-+lcUbnTRhd0jOewtFSedLyiPsD5tswKkbgcezOqqWFUVNEwoUTlpPOBmvhG7OXWLR4jMdv0czPGH5XbflnD1EA==
@@ -62,7 +62,7 @@
     "@jridgewell/trace-mapping" "^0.3.17"
     jsesc "^2.5.1"
 
-"@babel/helper-compilation-targets@^7.21.5":
+"@babel/helper-compilation-targets@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.22.5.tgz#fc7319fc54c5e2fa14b2909cf3c5fd3046813e02"
   integrity sha512-Ji+ywpHeuqxB8WDxraCiqR0xfhYjiDE/e6k7FuIaANnoOFxAHskHChz4vA1mJC9Lbm01s1PVAGhQY4FUKSkGZw==
@@ -100,7 +100,7 @@
   dependencies:
     "@babel/types" "^7.22.5"
 
-"@babel/helper-module-transforms@^7.21.5":
+"@babel/helper-module-transforms@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-module-transforms/-/helper-module-transforms-7.22.5.tgz#0f65daa0716961b6e96b164034e737f60a80d2ef"
   integrity sha512-+hGKDt/Ze8GFExiVHno/2dvG5IdstpzCq0y4Qc9OJ25D4q3pKfiIP/4Vp3/JvhDkLKsDK2api3q3fpIgiIF5bw==
@@ -143,7 +143,7 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-option/-/helper-validator-option-7.22.5.tgz#de52000a15a177413c8234fa3a8af4ee8102d0ac"
   integrity sha512-R3oB6xlIVKUnxNUxbmgq7pKjxpru24zlimpE8WK47fACIlM0II/Hm1RS8IaOI7NgCr6LNS+jl5l75m20npAziw==
 
-"@babel/helpers@^7.21.5":
+"@babel/helpers@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.22.5.tgz#74bb4373eb390d1ceed74a15ef97767e63120820"
   integrity sha512-pSXRmfE1vzcUIDFQcSGA5Mr+GxBV9oiRKDuDxXvWQQBCh8HoIjs/2DlDB7H8smac1IVrB9/xdXj2N3Wol9Cr+Q==
@@ -161,7 +161,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.21.8", "@babel/parser@^7.22.5":
+"@babel/parser@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.22.5.tgz#721fd042f3ce1896238cf1b341c77eb7dee7dbea"
   integrity sha512-DFZMC9LJUG9PLOclRC32G63UXwzqS2koQC8dkx+PLdmt1xSePYpbT/NbsrJy8Q/muXz7o/h/d4A7Fuyixm559Q==
@@ -173,7 +173,7 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@babel/template@^7.20.7", "@babel/template@^7.22.5":
+"@babel/template@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.22.5.tgz#0c8c4d944509875849bd0344ff0050756eefc6ec"
   integrity sha512-X7yV7eiwAxdj9k94NEylvbVHLiVG1nvzCV2EAowhxLTwODV1jl9UzZ48leOC0sH7OnuHrIkllaBgneUykIcZaw==
@@ -182,7 +182,7 @@
     "@babel/parser" "^7.22.5"
     "@babel/types" "^7.22.5"
 
-"@babel/traverse@^7.21.5", "@babel/traverse@^7.22.5":
+"@babel/traverse@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.22.5.tgz#44bd276690db6f4940fdb84e1cb4abd2f729ccd1"
   integrity sha512-7DuIjPgERaNo6r+PZwItpjCZEa5vyw4eJGufeLxrPdBXBoLcCJCIasvK6pK/9DVNrLZTLFhUGqaC6X/PA007TQ==
@@ -198,7 +198,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.21.5", "@babel/types@^7.22.5":
+"@babel/types@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.22.5.tgz#cd93eeaab025880a3a47ec881f4b096a5b786fbe"
   integrity sha512-zo3MIHGOkPOfoRXitsgHLjEXmlDaD/5KU1Uzuc9GNiZPhSqVxVRtxuPaSBZDsYZ9qV88AjtMtWW7ww98loJ9KA==
