@@ -771,10 +771,10 @@ eslint-config-airbnb@19.0.4:
     object.assign "^4.1.2"
     object.entries "^1.1.5"
 
-eslint-formatter-gitlab@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-4.0.0.tgz#4aa43b1f1455c8f534e1a4d32793c2fb72583543"
-  integrity sha512-ZUk5hgRmCGkQFpjo4/RRKrErTf2vmLt3ecJMtpzApruB5XK+9esD8t8a4yoG2CjkFljIfihI8sbNg7Utyic2bw==
+eslint-formatter-gitlab@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-5.0.0.tgz#321989900adb17d2d31164abba62d3c2b43f6807"
+  integrity sha512-4mF/Bam1xAzsNNYE7kWN/qBQD4mSMkDBEw5AoMLY4oU5iY7BxTxcAzs253FNnUKc5FvduD4Q4+/RW9l1xjz7Zg==
   dependencies:
     chalk "^4.0.0"
     yaml "^2.0.0"
