@@ -816,10 +816,10 @@ eslint-config-airbnb@19.0.4:
     object.assign "^4.1.2"
     object.entries "^1.1.5"
 
-eslint-formatter-gitlab@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-5.0.0.tgz#321989900adb17d2d31164abba62d3c2b43f6807"
-  integrity sha512-4mF/Bam1xAzsNNYE7kWN/qBQD4mSMkDBEw5AoMLY4oU5iY7BxTxcAzs253FNnUKc5FvduD4Q4+/RW9l1xjz7Zg==
+eslint-formatter-gitlab@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-5.1.0.tgz#33162a17eefba5a44a257af568511d360212e866"
+  integrity sha512-IxhrjLYzDlbFgPWEnvZlWLwPjMeyymbyo0hDHWntZ3DSAP9AP9huj15KbU+BK3OqeO3OHhbFEh2TA6sR0KZhkA==
   dependencies:
     chalk "^4.0.0"
     yaml "^2.0.0"
