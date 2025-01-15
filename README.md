@@ -12,7 +12,7 @@
 
 ## Usage
 
-The image is for running eslint, eslint is installed in /app/ in case you need to customize the install before usage
+The image is for running [ESLint][eslint]. ESLint is installed in /app/ in case you need to customize the install before usage.
 
 ## Examples
 
@@ -100,6 +100,7 @@ SOFTWARE.
 [releases]: https://gitlab.com/pipeline-components/eslint/tags
 [repository]: https://gitlab.com/pipeline-components/repository
 [semver]: http://semver.org/spec/v2.0.0.html
+[eslint]: https://eslint.org/
 
 [frenck]: https://github.com/frenck
 [hassio-addons]: https://github.com/hassio-addons
