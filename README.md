@@ -16,18 +16,27 @@ The image is for running [ESLint][eslint]. ESLint is installed in /app/ in case 
 
 ## Examples
 
+### Basic Integration
+
+This integration runs as a pipeline job. If any issues are found that are not
+silenced by the configuration, the job (and pipeline) fails.
+
 ```yaml
 eslint:
-  stage: linting
+  needs: []
   image: registry.gitlab.com/pipeline-components/eslint:latest
   before_script:
     - touch dummy.js
   script:
-    - eslint $( [[ -e .eslintrc ]] || echo '--no-eslintrc' ) --color .
-
+    - eslint --color .
 ```
 
-Touching dummy.js prevents eslint from complaining that it had no files to lint
+Notes:
+
+* Touching dummy.js prevents ESLint from complaining that it had no files
+  to lint.
+* If you don't want to customize the rules that are used, add
+  `--no-config-lookup` to the commandline.
 
 ## Versioning
 
