@@ -12,22 +12,67 @@
 
 ## Usage
 
-The image is for running eslint, eslint is installed in /app/ in case you need to customize the install before usage
+The image is for running [ESLint][eslint]. ESLint is installed in /app/ in case you need to customize the install before usage.
 
 ## Examples
 
+### Basic Integration
+
+This integration runs as a pipeline job. If any issues are found that are not
+silenced by the configuration, the job (and pipeline) fails.
+
 ```yaml
 eslint:
-  stage: linting
+  needs: []
   image: registry.gitlab.com/pipeline-components/eslint:latest
   before_script:
     - touch dummy.js
   script:
-    - eslint $( [[ -e .eslintrc ]] || echo '--no-eslintrc' ) --color .
-
+    - eslint --color .
 ```
 
-Touching dummy.js prevents eslint from complaining that it had no files to lint
+Notes:
+
+* Touching dummy.js prevents ESLint from complaining that it had no files
+  to lint.
+* If you don't want to customize the rules that are used, add
+  `--no-config-lookup` to the commandline.
+
+### GitLab Code Quality Integration
+
+This integration runs as a pipeline job, too. Other than the simple
+integration above, it doesn't fail the job if any issues are found.
+Instead, it makes all issues available via GitLab's
+[Code Quality][gitlab-code-quality]
+feature. That will display the changes in the set of found issues inside
+the Merge Request view, to support in code reviews before merging.
+
+```yaml
+eslint:
+  artifacts:
+    reports:
+      codequality: gl-codequality.json
+  image: registry.gitlab.com/pipeline-components/eslint:latest
+  needs: []
+  script:
+    # ESLint exits with 1 in case it finds any issues, which is not an
+    # error in the context of the pipeline. If it encounters an internal
+    # problem, it exits with 2 instead.
+    - eslint --format gitlab . || [ $? == 1 ]
+```
+
+Notes:
+
+* If you don't want to customize the rules that are used, add
+  `--no-config-lookup` to the commandline.
+* In a merge request, GitLab gives you the delta between the issues in
+  your branch and the target branch. Initially, when integrating in this
+  way, the issues found for the target branch are empty, giving you a
+  potentially _very_ long list. Only on subsequent merge request you get
+  a delta that actually related to the changes in that merge request.
+* In a typical setup, you don't configure ESLint to ignore issues it
+  detects that you don't care about. Instead, you rely on a code review
+  by a second developer, supported by the info provided by GitLab.
 
 ## Versioning
 
@@ -92,6 +137,7 @@ SOFTWARE.
 [discord]: https://discord.gg/vhxWFfP
 [gitlabci-shield]: https://img.shields.io/gitlab/pipeline/pipeline-components/eslint.svg
 [gitlabci]: https://gitlab.com/pipeline-components/eslint/-/commits/master
+[gitlab-code-quality]: https://docs.gitlab.com/ee/ci/testing/code_quality.html
 [issue]: https://gitlab.com/pipeline-components/eslint/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
@@ -100,6 +146,7 @@ SOFTWARE.
 [releases]: https://gitlab.com/pipeline-components/eslint/tags
 [repository]: https://gitlab.com/pipeline-components/repository
 [semver]: http://semver.org/spec/v2.0.0.html
+[eslint]: https://eslint.org/
 
 [frenck]: https://github.com/frenck
 [hassio-addons]: https://github.com/hassio-addons
