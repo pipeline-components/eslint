@@ -831,10 +831,10 @@ eslint-formatter-codeclimate@^2.0.0:
   dependencies:
     codeclimate-types "^0.3.0"
 
-eslint-formatter-gitlab@7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-7.1.0.tgz#2a6690ca52a558f1cc0e05dc69273bbb9c1935b6"
-  integrity sha512-Nh03meTqLc4BgYRVdcKB3Hy+xwA6APpidFHq3gvRgzpwplMDXiQyLqSlTUuNeImiGm1YagoLTfsSPa7XQM/H2g==
+eslint-formatter-gitlab@7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-formatter-gitlab/-/eslint-formatter-gitlab-7.2.0.tgz#f8830c290eaf818798d9b68e1da81c6a1ecd7d04"
+  integrity sha512-9Sjquvp+eaVehYyHk10FO24Zgw2Xotu5sgiIjt0o1EKo2KHfd2umFa99prxd5OvaTlMmFLRYbFkF4PvJTZ3A2Q==
   dependencies:
     eslint-formatter-codeclimate "^2.0.0"
     yaml "^2.0.0"
